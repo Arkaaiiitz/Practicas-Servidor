@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../estilos/alumnado.css">
+    <title>Formulario del Alumnado de 2ºESO del CF Somorrostro</title>
+</head>
+<body>
+    <h1>Formulario del Alumnado del CF Somorrostro</h1>
+    <form method="post" action="db.php">
+        Nombre:
+        <input type="text" name="nombre" required>
+        <br>
+        Apellidos:
+        <input type="text" name="apellidos" required>
+        <br>
+        Fecha de Nacimiento:
+        <br>
+        <input type="date" name="fechaNac" required>
+        <br>
+        Curso:
+        <br>
+        <select name="curso" required>
+            <option value="1ºESO">1º ESO</option>
+            <option value="2ºESO">2º ESO</option>
+            <option value="3ºESO">3º ESO</option>
+            <option value="4ºESO">4º ESO</option>
+        </select>
+        <br>
+        Correo Electrónico:
+        <br>
+        <input type="email" name="correo" required>
+        <br>
+        Contraseña:
+        <br>
+        <input type="password" name="contraseña" required>
+        <br>
+        <input type="submit" value="Confirmar">
+    </form>
+</body>
+</html>

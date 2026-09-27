@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../imagenes/fondo_alumnado.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 20px;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    width: 350px;
+    border: 1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+input, select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+h1, h2 {
+    text-align: center;
+    color: white;
+}
+
+p {
+    color:white;
+}
+
+.tabla-alumnado {
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+.tabla-alumnado th, .tabla-alumnado td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+.tabla-alumnado th {
+    background-color: #ddd;
+}
